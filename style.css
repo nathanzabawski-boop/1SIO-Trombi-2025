@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+#THOUVEREZ {
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	background: #21BF33;
+		background: linear-gradient(299deg,rgba(33, 191, 51, 1) 0%, rgba(243, 255, 13, 1) 40%, rgba(255, 13, 13, 1) 100%, rgba(237, 83, 83, 1) 100%);
+	border-radius: 15px;
+	border: 0px;
+	   font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#THOUVEREZ img {
+	border-radius: 15px;
+}
+
+#THOUVEREZ  {
+  /* 1. Définit l'animation de transformation sur 1 seconde */
+  transition: transform 1s; 
+}
+
+#THOUVEREZ :hover {
+  /* 2. Applique une rotation de 360 degrés au survol */
+  transform: rotate(360deg); 
+}
