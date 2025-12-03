@@ -220,3 +220,23 @@
     cursor: pointer;
     z-index: 10;
 }
+/* ========== ZABAWSKI ========== */
+#ZABAWSKI {
+    border: none;
+    padding: 10px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #000000, #ff8c00);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#ZABAWSKI img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#ZABAWSKI:hover {
+    transform: scale(1.07);
+    box-shadow: 0 8px 16px rgba(255, 140, 0, 0.5);
+}
